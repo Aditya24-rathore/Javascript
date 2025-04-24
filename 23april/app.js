@@ -26,7 +26,7 @@ console.log(output);
 output=Math.trunc(78.6);
 console.log(output);
 
-// returns -1 if negative and 0 if positive
+// returns -1 if negative and 1 if positive
 output=Math.sign(0);
 console.log(output);
 
@@ -52,11 +52,12 @@ console.log(output);
 
 var x=Math.floor(Math.random()*100)+1;
 var y=Math.floor(Math.random()*50)+1;
-let sum,diff,mul,div;
+let sum,diff,mul,div,mod;
 sum=x+y;
 diff=x-y;
 mul=x*y;
-div=x%y;
+mod=x%y;
+div=x/y;
 console.log(sum);
 console.log(diff);
 console.log(mul);
