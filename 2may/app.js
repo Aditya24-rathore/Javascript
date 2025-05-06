@@ -24,7 +24,7 @@ const library=[
             reading:false,
             read:false,
         },
-    }
+    },
 ]
 
 library[0].status.read=true
